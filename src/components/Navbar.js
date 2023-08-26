@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addHabit } from "../redux/features/habitSlice";
 
-const CustomNavbar = ({ title }) => {
+const Navbar = ({ title }) => {
   const dispatch = useDispatch();
   const [hour, setHour] = useState(0);
 
@@ -91,4 +91,4 @@ const CustomNavbar = ({ title }) => {
   );
 };
 
-export default CustomNavbar;
+export default Navbar;
