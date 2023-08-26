@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./HomePage";
+import HomePage from "./Home";
 import CalendarView from "./CalendarView";
 
 const Application = () => {
