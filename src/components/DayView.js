@@ -1,9 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import {
-  habitCompleted,
-  habitUndone,
-  habitSetUndecided
+  habitDone, habitNone, habitUnDone
 } from "../redux/features/habitSlice";
 
 const CustomDayView = ({ day }) => {
