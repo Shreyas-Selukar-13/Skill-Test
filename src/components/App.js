@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./Home";
 import CalendarView from "./WeekView";
 
-const Application = () => {
+const App = () => {
   return (
     <>
       <Routes>
@@ -14,4 +14,4 @@ const Application = () => {
   );
 };
 
-export default Application;
+export default App;

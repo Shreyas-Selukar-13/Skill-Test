@@ -1,14 +1,14 @@
 import React from 'react';
 import CustomHabits from './Habits';
-import CustomNavbar from './Navbar';
+import Navbar from './Navbar';
 
-const CustomHome = () => {
+const Home = () => {
   return (
     <>
-      <CustomNavbar title="Custom Detail View" />
+      <Navbar title="Custom Detail View" />
       <CustomHabits />
     </>
   );
 };
 
-export default CustomHome;
+export default Home;
