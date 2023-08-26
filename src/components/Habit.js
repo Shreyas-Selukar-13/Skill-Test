@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeHabit } from "../redux/features/habitSlice";
+import { deleteHabit } from "../redux/features/habitSlice";
 import { useNavigate } from "react-router-dom";
 
 const CustomHabit = ({ habit }) => {
@@ -18,7 +18,7 @@ const CustomHabit = ({ habit }) => {
   const dispatch = useDispatch();
 
   const handleHabitDeletion = () => {
-    dispatch(removeHabit(habit.id));
+    dispatch(deleteHabit(habit.id));
     alert("Your habit has been successfully deleted.");
   };
 

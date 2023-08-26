@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { addCustomHabit } from "../redux/features/habitSlice";
+import { addHabit } from "../redux/features/habitSlice";
 
 const CustomNavbar = ({ title }) => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const CustomNavbar = ({ title }) => {
 
   const handleSave = () => {
     const customHabitName = document.getElementById("customHabitName").value;
-    dispatch(addCustomHabit(customHabitName));
+    dispatch(addHabit(customHabitName));
     alert("Your custom habit has been added successfully.");
     document.getElementById("customHabitName").value = "";
   };

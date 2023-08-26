@@ -17,7 +17,7 @@ const CustomDayView = ({ day }) => {
       alert("You cannot change the status of future days.");
       return;
     }
-    dispatch(habitCompleted(day.id));
+    dispatch(habitDone(day.id));
   };
 
   const markAsUndone = () => {
@@ -25,7 +25,7 @@ const CustomDayView = ({ day }) => {
       alert("You cannot change the status of future days.");
       return;
     }
-    dispatch(habitUndone(day.id));
+    dispatch(habitUnDone(day.id));
   };
 
   const markAsUndecided = () => {
@@ -33,7 +33,7 @@ const CustomDayView = ({ day }) => {
       alert("You cannot change the status of future days.");
       return;
     }
-    dispatch(habitSetUndecided(day.id));
+    dispatch(habitNone(day.id));
   };
 
   return (
