@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CustomDayView from "./CustomDayView";
-import CustomNavbar from "./CustomNavbar";
+import CustomDayView from "./DayView";
+import CustomNavbar from "./Navbar";
 import { useSelector } from "react-redux";
 
 const CustomWeekView = () => {

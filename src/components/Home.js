@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomHabits from './CustomHabits';
-import CustomNavbar from './CustomNavbar';
+import CustomHabits from './Habits';
+import CustomNavbar from './Navbar';
 
 const CustomHome = () => {
   return (

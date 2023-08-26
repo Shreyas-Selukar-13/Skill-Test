@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { addCustomHabit } from "../redux/features/customHabitSlice";
+import { addCustomHabit } from "../redux/features/habitSlice";
 
 const CustomNavbar = ({ title }) => {
   const dispatch = useDispatch();

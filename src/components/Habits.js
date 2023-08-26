@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomHabit from './CustomHabit';
+import CustomHabit from './Habit';
 import { useSelector } from "react-redux";
 
 const CustomHabits = () => {
